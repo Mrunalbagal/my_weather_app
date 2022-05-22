@@ -1,0 +1,7 @@
+h1 {
+  color: blue;
+  text-align: center;
+}
+.big_weather {
+  max-height: 200px;
+}
