@@ -1,7 +1,38 @@
-h1 {
-  color: blue;
-  text-align: center;
+body {
+  background-color: rgb(219, 221, 245);
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
 }
-.big_weather {
-  max-height: 200px;
+
+.container-sm {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.container {
+  padding-top: 75px;
+}
+
+h1 {
+  color: rgb(40, 40, 161);
+  text-align: center;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.cityInfo {
+  line-height: 0.8;
+}
+
+#current-weather-icon {
+  width: 100px;
+}
+
+#currentTemperature {
+  font-size: 75px;
+}
+
+#celsius {
+  vertical-align: top;
+  margin-top: 10px;
+  font-size: 30px;
 }
